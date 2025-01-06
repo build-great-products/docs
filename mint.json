@@ -49,7 +49,7 @@
     },
     {
       "name": "API Reference",
-      "openapi": "https://in.rough.app/api/v1",
+      "openapi": "https://in.rough.app/api/v1/openapi.json",
       "url": "api-reference",
       "icon": "square-terminal"
     }
