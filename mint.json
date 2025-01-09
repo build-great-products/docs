@@ -1,6 +1,7 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Rough.app",
+  "openapi": "https://in.rough.app/api/v1/openapi.json",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -32,12 +33,6 @@
     }
   ],
   "anchors": [
-    {
-      "name": "API Reference",
-      "openapi": "https://in.rough.app/api/v1/openapi.json",
-      "url": "api-reference",
-      "icon": "square-terminal"
-    }
   ],
   "navigation": [
     {
@@ -50,5 +45,10 @@
   "footerSocials": {
     "github": "https://github.com/build-great-products",
     "linkedin": "https://www.linkedin.com/company/rough-app"
+  },
+  "api": {
+    "playground": {
+      "disableProxy": true
+    }
   }
 }
